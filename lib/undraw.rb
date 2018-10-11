@@ -29,7 +29,7 @@ module Undraw
     end
 
     def assets_path
-      @assets_path ||= File.join gem_path, 'assets'
+      @assets_path ||= File.join gem_path, 'vendor/assets'
     end
 
     # Environment detection helpers
