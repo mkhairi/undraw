@@ -1,6 +1,6 @@
-# Undraw
+# unDraw rubygem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem.
+Embed SVG illustrations by [unDraw.io](https://undraw.co/illustrations) for your rails projects, 
 
 ![screenshot](https://user-images.githubusercontent.com/7901659/46782215-ff11b700-cd57-11e8-9bdc-e417053d7189.png)
 ## Installation
@@ -21,15 +21,17 @@ Or install it yourself as:
 
 ## Usage
 
-```ruby 
-<%= undraw("features_overview", color: "#ff6347", class: "undraw-features-overview") %> 
+```ruby
+<%= undraw("features_overview", color: "#3f51b5", size: "350*150") %>
+
+<%= undraw("features_overview", color: "#ff6347", id: "undraw-features-overview") %>
+
+<%= undraw("features_overview", color: "#ff6347", class: "undraw-features-overview") %>
 ```
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 

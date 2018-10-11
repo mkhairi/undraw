@@ -6,22 +6,13 @@ require "undraw/version"
 Gem::Specification.new do |spec|
   spec.name          = "undraw"
   spec.version       = Undraw::VERSION
-  spec.authors       = ["Mohd Khairi Mohd Adnan"]
+  spec.authors       = ["mkhairi"]
   spec.email         = ["khairi@labs.my"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = %q{MIT licensed illustrations by unDraw for your rails projects, https://undraw.co/illustrations}
+  spec.description   = %q{Embed SVG illustrations by unDraw for your rails projects, https://undraw.co/illustrations}
   spec.homepage      = "https://github.com/mkhairi/undraw"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -33,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "inline_svg", "~>1.3.1"
+  
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
 end
