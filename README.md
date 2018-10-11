@@ -1,6 +1,6 @@
 # unDraw rubygem
 
-Embed SVG illustrations by [unDraw.io](https://undraw.co/illustrations) for your rails projects, 
+Embed SVG illustrations by [unDraw.io](https://undraw.co/illustrations) for your rails projects
 
 ![screenshot](https://user-images.githubusercontent.com/7901659/46782215-ff11b700-cd57-11e8-9bdc-e417053d7189.png)
 ## Installation
