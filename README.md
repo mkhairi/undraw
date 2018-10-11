@@ -22,9 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-    ```ruby 
-        <%= undraw("features_overview", color: "#ff6347") %> 
-    ```
+```ruby 
+    <%= undraw("features_overview", color: "#ff6347") %> 
+```
 
 ## Development
 
