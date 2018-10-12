@@ -21,6 +21,9 @@ Or install it yourself as:
 
 ## Usage
 
+Browse to find the [images](https://undraw.co/illustrations) that fit your needs. Take advantage of the on-the-fly color image generation to match your brand identity.
+
+
 ```ruby
 <%= undraw("features_overview", color: "#3f51b5", size: "350*150") %>
 ```
