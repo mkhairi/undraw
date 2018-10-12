@@ -23,10 +23,14 @@ Or install it yourself as:
 
 ```ruby
 <%= undraw("features_overview", color: "#3f51b5", size: "350*150") %>
+```
 
-<%= undraw("features_overview", color: "#ff6347", id: "undraw-features-overview") %>
+```ruby
+<%= undraw("building", color: "#ff6347", id: "undraw-building") %>
+```
 
-<%= undraw("features_overview", color: "#ff6347", class: "undraw-features-overview") %>
+```ruby
+<%= undraw("designer_life", color: "#ff6347", class: "undraw-designer-life") %>
 ```
 
 ## Development
