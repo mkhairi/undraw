@@ -23,16 +23,23 @@ Or install it yourself as:
 
 Browse to find the [images](https://undraw.co/illustrations) that fit your needs. Take advantage of the on-the-fly color image generation to match your brand identity.
 
+```ruby
+# default color
+<%= undraw("features_overview") %>
+```
 
 ```ruby
+# set size 
 <%= undraw("features_overview", color: "#3f51b5", size: "350*150") %>
 ```
 
 ```ruby
+# set id
 <%= undraw("building", color: "#ff6347", id: "undraw-building") %>
 ```
 
 ```ruby
+# set class
 <%= undraw("designer_life", color: "#ff6347", class: "undraw-designer-life") %>
 ```
 
