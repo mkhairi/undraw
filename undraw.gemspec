@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["khairi@labs.my"]
 
   spec.summary       = %q{MIT licensed illustrations by unDraw for your rails projects, https://undraw.co/illustrations}
-  spec.description   = %q{Embed SVG illustrations by unDraw for your rails projects, https://undraw.co/illustrations}
+  spec.description   = %q{Embed SVG illustrations by unDraw https://undraw.co/illustrations. Take advantage of the on-the-fly color image generation to match your brand identity.}
   spec.homepage      = "https://github.com/mkhairi/undraw"
   spec.license       = "MIT"
 
