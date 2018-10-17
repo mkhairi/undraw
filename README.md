@@ -43,6 +43,7 @@ Browse to find the [images](https://undraw.co/illustrations) that fit your needs
 <%= undraw("designer_life", color: "#ff6347", class: "undraw-designer-life") %>
 ```
 
+DEMO: http://materialize.labs.my/undraw
 ## Development
 
 
