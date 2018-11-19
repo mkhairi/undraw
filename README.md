@@ -23,6 +23,8 @@ Or install it yourself as:
 
 Browse to find the [images](https://undraw.co/illustrations) that fit your needs. Take advantage of the on-the-fly color image generation to match your brand identity.
 
+**hint: downcase the svg title and replace space with underscore. eg: `Features Overview` to `features_overview`
+
 ```ruby
 # default color
 <%= undraw("features_overview") %>
