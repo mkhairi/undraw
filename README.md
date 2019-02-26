@@ -45,6 +45,14 @@ Browse to find the [images](https://undraw.co/illustrations) that fit your needs
 <%= undraw("designer_life", color: "#ff6347", class: "undraw-designer-life") %>
 ```
 
+**Note:
+    
+    
+This gem will often update assets perhaps weekly. You need to manually update you installed gem to support new svg released.
+ 
+    $ bundle update undraw
+    
+
 DEMO: http://materialize.labs.my/undraw
 ## Development
 
