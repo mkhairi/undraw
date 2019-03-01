@@ -48,7 +48,7 @@ Browse to find the [images](https://undraw.co/illustrations) that fit your needs
 **Note:
     
     
-This gem will often update assets perhaps weekly. You need to manually update you installed gem to support new svg released.
+This gem will often update assets perhaps weekly. You need to manually update your installed gem to support new svg released.
  
     $ bundle update undraw
     
