@@ -1,4 +1,4 @@
-# unDraw rubygem
+# unDraw rubygem [![Gem Version](https://badge.fury.io/rb/undraw.svg)](http://badge.fury.io/rb/undraw)
 
 Embed SVG illustrations by [unDraw.io](https://undraw.co/illustrations) for your rails projects
 
