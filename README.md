@@ -46,14 +46,20 @@ Browse to find the [images](https://undraw.co/illustrations) that fit your needs
 ```
 
 ## Update
-Run bundle update to latest gem release
+Run bundle update to latest gem released
 
 ```$ bundle update undraw```
 
-Due the license issue, any new illustrations release are no longer added to this gems and existing assets might be removed in a future release.
+Due the license issue, any new illustrations released are no longer added to this gems and existing assets might be removed in a future release.
 You need to manually download preferred svg file and put on:
 
-```\vendor\images\undraw\<asset-name>.svg```
+```\vendor\images\undraw\<asset_name>.svg```
+
+
+```ruby
+# default color
+<%= undraw("<asset_name>") %>
+```
 
 
 ## Development

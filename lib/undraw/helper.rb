@@ -26,7 +26,7 @@ module Undraw
         #inline_svg svg_file, class: 'some-class' 
         InlineSvg::TransformPipeline.generate_html_from(svg_file, transform_params).html_safe
       rescue Errno::ENOENT
-        raise Undraw::FileNotFound.new("Asset not found: #{asset_path}")
+        raise Undraw::FileNotFound.new("Asset not found: #{filename}, you can manually download and place svg in #{vendor_path}")
       end
     end
 
