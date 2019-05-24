@@ -3,8 +3,15 @@ module Undraw
 
     def undraw(filename, transform_params={})
       asset_path = "#{Undraw.root}/vendor/assets/images/undraw/#{filename}.svg"
+      vendor_path =  "#{Rails.root}/vendor/assets/images/undraw/#{filename}.svg"
       begin
-        svg_file = File.read(asset_path)
+        
+        if File.exist?(vendor_path)
+          svg_file = File.read(vendor_path)
+        else
+          svg_file = File.read(asset_path)
+        end
+
         color = transform_params.delete(:color)
  
         if color.is_a?(Hash)
