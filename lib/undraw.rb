@@ -1,7 +1,6 @@
-require "undraw/version"
+require 'undraw/version'
 
 module Undraw
-  
   class << self
     def load!
       if rails?
@@ -14,18 +13,10 @@ module Undraw
     def root
       File.dirname __dir__
     end
-    
+
     # Paths
     def gem_path
       @gem_path ||= File.expand_path '..', File.dirname(__FILE__)
-    end
-
-    def stylesheets_path
-      File.join assets_path, 'stylesheets'
-    end
-
-    def javascripts_path
-      File.join assets_path, 'javascripts'
     end
 
     def assets_path
@@ -48,8 +39,7 @@ module Undraw
     end
 
     def register_sprockets
-      Sprockets.append_path(stylesheets_path)
-      #Sprockets.append_path(javascripts_path)
+      Sprockets.append_path(assets_path)
     end
   end
 end
