@@ -19,7 +19,7 @@ GEM
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     minitest (5.15.0)
-    nokogiri (1.13.3-x86_64-linux)
+    nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     racc (1.6.0)
     tzinfo (2.0.4)
